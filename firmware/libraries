@@ -1,0 +1,31 @@
+## Libraries
+
+For this project, the following libraries are required:
+
+1. ArduinoHttpClient 0.6.1 --> Enables the ESP32 to communicate with ThingsBoard over HTTP protocols
+2. Adafruit GFX Library 1.12.6 --> Foundational graphics engine for rendering real-time data on OLED screen.
+3. Adafruit SSD1306 2.5.17 --> Enables the physical visualization for data on OLED screen.
+4. ArduinoJson 6.21.5 --> Serializes and deserializes JSON payloads required for communication between ESP32 and ThingsBoard 
+5. EmonLib 1.1.0 -->  Calculates RMS voltage, RMS current, real power, and power factor automatically
+6. TBSubPubClient 2.12.1 --> Enables MQTT connection between ESP32 and ThingsBoard
+7. ThingsBoard 0.15.0 --> Handles complex communication protocols required for a connection between ESP32 and ThingsBoard
+
+*NOTE: All these libraries can be installed directly through the Arduino IDE software.
+
+## Installation Steps:
+
+1. Open Arduino IDE
+2. Click the "Library Manager" tab on the left
+3. Search up listed libraries and install the correct version
+
+
+
+Links to learn more about the libraries:
+
+-ArduinoHttpClient   ->     https://docs.arduino.cc/libraries/arduinohttpclient/
+-Adafruit GFX Library  ->   https://learn.adafruit.com/adafruit-gfx-graphics-library/overview
+-Adafruit SSD1306    ->     https://github.com/adafruit/adafruit_ssd1306
+-ArduinoJson      ->        https://arduinojson.org/
+-EmonLib        ->          https://github.com/openenergymonitor/EmonLib
+-TBSubPubClient    ->       https://docs.arduino.cc/libraries/tbpubsubclient/
+-ThingsBoard    ->          https://github.com/thingsboard/thingsboard-client-sdk
